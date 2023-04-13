@@ -40,12 +40,13 @@ while True:
     print("\nEscolha uma opção:")
     print("1 - Empilhar == iserir no inicio do Deque")
     print("2 - Desempilhar == remover do inicio do Deque")
-    print("3 - Injetar == inserir no final do Deque")
-    print("4 - Ejetar == remover no final do Deque")
+    print("3 - Inject == inserir no final do Deque")
+    print("4 - Eject == remover no final do Deque")
     print("5 - Ver deque")
     print("6 - Sair")
 
     opcao = int(input("Opção escolhida: "))
+    print("\n")
 
     if opcao == 1:
         item = input("Digite o item a ser empilhado: ")
