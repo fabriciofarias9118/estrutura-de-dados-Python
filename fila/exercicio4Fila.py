@@ -4,7 +4,7 @@
 # apenas um processador? Isso existe graças a uma funcionalidade chamada de tempo
 # compartilhado(“time - shared”).Essa funcionalidade mantém uma sequência de processos em uma
 # fila, esperando para serem executados.Implemente uma fila para armazenar as informações desses
-# processos. Seu programa deverá permitir: ]
+# processos. Seu programa deverá permitir: 
 # ncluir novos processos na fila de processo;
 # Matar o processo com o maior tempo de espera;
 # Executar um processo(remover da fila)
